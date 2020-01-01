@@ -2,7 +2,7 @@ import os
 from flask import Flask, request, render_template, jsonify
 from tweeter import TwitterClient
 
-app= Flask(__name__)
+application= app= Flask(__name__)
 
 api= TwitterClient('Data')
 
