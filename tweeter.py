@@ -13,6 +13,7 @@ class TwitterClient(object):
         access_token = '105464192-b0XKKPviiseIIvBWxItGcLp7DvLsUKGcTnW2q3NK'
         access_token_secret = 'KsdMiyAPdaLXUPMD77YBVro1wBjN92lr96RLWKpSFvMpX'
         print('consumer key is....', consumer_key)
+        print('consumer secret is....', consumer_secret)
         
         try:
             self.auth= OAuthHandler(consumer_key, consumer_secret)
