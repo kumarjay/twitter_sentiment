@@ -7,8 +7,8 @@ from textblob import TextBlob
 class TwitterClient(object):
     
     def __init__(self, query, retweets_only=False, with_sentiment=False):
-        consumer_key = 'uWWd3uTfFKqQtBdlF1jMMBASu'
-        consumer_secret = 'Z3huO0po2YxS44F4OI5E1AVEyYw7XzjNleZfokDQJmrU53UVZQ'
+        consumer_key = ${{ secrets.consumer_key }}
+        consumer_secret = ${{ secrets.consumer_secret }}
 
         access_token = '105464192-b0XKKPviiseIIvBWxItGcLp7DvLsUKGcTnW2q3NK'
         access_token_secret = 'KsdMiyAPdaLXUPMD77YBVro1wBjN92lr96RLWKpSFvMpX'
